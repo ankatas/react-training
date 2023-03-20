@@ -1,0 +1,15 @@
+.Menu {
+  margin-bottom: 1em;
+}
+
+.Menu a {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.25em;
+  background-color: black;
+  color: white;
+}
+.Menu a:hover {
+  background-color: white;
+  color: black;
+}

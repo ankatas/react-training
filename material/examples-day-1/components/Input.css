@@ -1,0 +1,37 @@
+.Input {
+  padding: 0.5em 0;
+}
+
+.Input-label {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  font-size: 0.8em;
+  display: block;
+}
+
+.Input-input {
+  padding: 0.5em 0.75em;
+  min-width: 200px;
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid grey;
+  border-radius: 5px;
+  transition: 0.2s ease box-shadow;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.Input-input:focus {
+  box-shadow: 0px 0px 0px 2px rgb(89, 155, 231);
+}
+
+.Input-error {
+  box-shadow: 0px 0px 0px 2px lightcoral;
+}
+
+.Input-error-message {
+  font-weight: bold;
+  margin-top: 0.3em;
+  font-size: 0.8em;
+}
